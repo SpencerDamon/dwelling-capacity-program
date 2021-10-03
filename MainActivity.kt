@@ -22,5 +22,11 @@ main(){
   //Must pass the required parameters ezpected by the superclass could be fized Dwelling(3), to be more flezible pass the private variable residents.
   //shorthand for class SquareCabin constructor(residents: Int)...
   //
-  class SquareCabin(residents: Int) : Dwelling(residents)
+  class SquareCabin(residents: Int) : Dwelling(residents) {
+    //the abstract values below were defined in the parent class, so we must provide a value.
+    //The override keyword indicates these properties were defined in a parent class and is about to be overridden in this class.
+    override val buildingMaterial = "Wood"
+    override val capacity = 6
+  
+  }
 }
