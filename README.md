@@ -1,2 +1,2 @@
-# tip-calculator-app
-tip calculator app via Kotlin Basics codelab
+# Dwellings capacity app
+Dwellings with a set capacity compared to current residents via Kotlin Basics codelab
