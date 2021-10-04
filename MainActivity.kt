@@ -1,5 +1,25 @@
 main(){
 
+  //Tests code: creates an instance of SquareCabin and initializes it to 6 residents
+  //val squareCabin = SquareCabin(6)
+  //println("\nSquare Cabin\n============")
+  //println("Capacity: ${squareCabin.capacity}")
+  //println("Material: ${squareCabin.buildingMaterial}")
+  //println("Has room?: ${sqaureCabin.hasRoom()}")
+  
+  //Refactors the above using a with statement; with(instanceName){all operations to do with instanceName}
+  val squareCabin = SquareCabin(6)
+  
+  with(squareCabin){
+    println("\nSquare Cabin\n============")
+    println("Capacity: ${capacity}")
+    println("Material: ${buildingMaterial}")
+    println("Has room?: ${hasRoom()}")
+  }
+
+}
+
+          
   //created a root class of Dwelling; the class must be astract, because variable will remain undefined. It cannot be instantiated because it is not fully implemented.
   //Defined the residents property to be inherited and used by all other children classes.
   //private declares the property to only been seen or used by this class, and inaccessable to the rest of the program.
@@ -29,4 +49,4 @@ main(){
     override val capacity = 6
   
   }
-}
+
