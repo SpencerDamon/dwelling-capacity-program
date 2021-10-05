@@ -1,2 +1,2 @@
-# Dwellings capacity app
-Dwellings with a set capacity compared to current residents via Kotlin Basics codelab
+# Dwellings capacity program
+Program that implements classes for different kinds of dwellings via Kotlin Basics codelab.
